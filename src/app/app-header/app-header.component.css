@@ -1,0 +1,18 @@
+nav{
+    height:8vh;
+    width:100vw;
+    background-color:#383838;
+    color:white;
+    font-size:34px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.header{
+    position:relative;
+    top:25%;
+    height:fit-content;
+}

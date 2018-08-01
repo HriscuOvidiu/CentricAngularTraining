@@ -1,0 +1,8 @@
+<div class="items-section">
+  <div *ngFor="let item of items">
+    <ul class="list-item" (click)="sendDetails(item)" [ngClass]="{'selected-item': selectedItem===item.id}">
+      <li>Id: {{item.id}}</li>
+      <li>Title: {{item.title}}</li>
+  </ul>
+  </div>
+</div>

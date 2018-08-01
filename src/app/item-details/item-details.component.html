@@ -1,0 +1,13 @@
+<div class="item-details">
+  <p class="item-title">Id</p> 
+  <p class="item">{{itemToBeSend.id}}</p>
+  <p class="item-title">Title</p> 
+  <p class="item">{{itemToBeSend.title}}</p>
+  <p class="item-title">Body</p> 
+  <p class="item">{{itemToBeSend.body}}</p>
+<div *ngIf="path!=='/undefined'" >
+  <a [routerLink]="path" class="url"> Go to url </a>
+</div>
+
+</div>
+
